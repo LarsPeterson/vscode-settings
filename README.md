@@ -1,5 +1,10 @@
 # vscode-settings
 
+This configuration applies the following changes to Visual Studio Code:
+- Applies the Default Dark Theme.
+- Uses Git Bash as the default terminal.
+- Changes the zoom level to "-2".
+
 ```
 {
     "workbench.colorTheme": "Default Dark+",
