@@ -33,5 +33,6 @@ This configuration applies the following changes to Visual Studio Code:
         }
     },
     "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "diffEditor.ignoreTrimWhitespace": false
 }
 ```
