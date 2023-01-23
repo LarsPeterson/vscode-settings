@@ -1,16 +1,22 @@
-# vscode-settings
+# Visual Studio Code User Settings
 
 To apply this configuration, press `CTRL+SHIFT+P` and enter "user settings".
 
 ![image](https://user-images.githubusercontent.com/25396567/212573966-8932ff82-23dd-41a7-a6c1-02e27a8a2a39.png)
 
 This configuration applies the following changes to Visual Studio Code:
-- Applies the Default Dark Theme.
 - Uses Git Bash as the default terminal.
+- Applies the Default Dark Theme.
 - Changes the zoom level to "-2".
 
 ```
 {
+    "angular.enable-strict-mode-prompt": false,
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "develop"
+    ],
+    "terminal.integrated.shell.windows": "C:\\Git\\bin\\bash.exe",
+    "terminal.integrated.shellArgs.windows": [],
     "workbench.colorTheme": "Default Dark+",
     "window.zoomLevel": -2,
     "terminal.integrated.profiles.windows": {
@@ -28,11 +34,11 @@ This configuration applies the following changes to Visual Studio Code:
         },
         "Git Bash": {
             "source": "Git Bash",
-            "path": ["C:\\Program Files\\Git\\bin\\bash.exe"],
+            "path": ["C:\\Git\\bin\\bash.exe"],
             "icon": "terminal-bash"
         }
     },
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
 }
 ```
